@@ -17,8 +17,14 @@ source 'https://rubygems.org'
 gem 'rake'
 
 # Component requirements
+gem 'sass'
+gem 'slim'
+gem 'activerecord', '>= 3.1', :require => 'active_record'
+gem 'mysql2'
 
 # Test requirements
+gem 'rspec', :group => 'test'
+gem 'rack-test', :require => 'rack/test', :group => 'test'
 
 # Padrino Stable Gem
 gem 'padrino', '0.14.1.1'
