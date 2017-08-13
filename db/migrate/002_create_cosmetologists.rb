@@ -1,4 +1,4 @@
-class CreateCosmetologists < ActiveRecord::Migration
+class CreateCosmetologists < ActiveRecord::Migration[5.1]
   def self.up
     create_table :cosmetologists do |t|
       t.string :name
